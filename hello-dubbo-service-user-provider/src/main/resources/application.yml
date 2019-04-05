@@ -25,6 +25,8 @@ dubbo:
     name: dubbo
     port: 12346
     status: server
+    serialization: kryo
+
   ## RegistryConfig Bean
   registry:
     id: zookeeper

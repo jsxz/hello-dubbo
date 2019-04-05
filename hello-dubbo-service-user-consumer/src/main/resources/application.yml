@@ -22,6 +22,8 @@ dubbo:
   registry:
     id: zookeeper
     address: zookeeper://localhost:2181
+  protocol:
+    serialization: kryo
 
 # Dubbo Endpoint (default status is disable)
 endpoints:
